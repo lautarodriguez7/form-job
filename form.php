@@ -34,7 +34,7 @@
             <fieldset>
                 <label for='N° del Profesional' >Fecha de regulacion:</label>
                 <input type='date' value='<?php echo date("Y-m-d");?>' min='1947-01-01' max='<?php echo date("Y-m-d");?>' required> <br>
-                <label for='caratula'>Caratula: </label>
+                <label for='caratula' id='caratula'>Caratula: </label>
                 <input type='text' required> <br>
                 <label for='honorario regulado'>Honorario regulado:</label>
                 <input type='number' required>

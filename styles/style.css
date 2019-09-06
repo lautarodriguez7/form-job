@@ -7,7 +7,7 @@ div form {
 input{
     display: inline-block;
     margin-bottom: 10px;
-    height: 15px;
+    height: 20px;
     padding: 3px;
     border: 1px solid #d3d3d3;
     border-radius: 3px;
@@ -36,8 +36,12 @@ label {
 }
 input[type=submit],input[type=reset] {
     background:#CBE2F0;
-    width: 8%;
+    width: 10%;
 }
 input[type=submit]:hover, input[type=reset]:hover {
      background: #ADBFCA;
+}
+
+input #caratula {
+     width: 500px;
 }
