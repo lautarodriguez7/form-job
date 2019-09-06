@@ -69,5 +69,6 @@
                 <input type='reset' id='reset'> <br><br>
         </form>
     </div>
+    <script src='js/form.js'></script>
 </body>
 </html>
