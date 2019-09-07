@@ -4,12 +4,12 @@ var expte = document.getElementById('expte');
 
     function required() {
        
-        if (cuij != '' && expte != '') {
-            alert('Ninguno de los dos esta'); 
-        } else if (cuij = '') {
-            alert('falta el CUIJ');
+        if (cuij==='' || cuij===' ' && expte==='' || expte===' ') {
+            alert('Falta el expte');
+        } else if (expte==='' || expte===' '){
+            alert('falta el cuij');
         }
         else {
-            alert('Falta el EXPTE');
+            alert('faltan ambos');
         }
     }
