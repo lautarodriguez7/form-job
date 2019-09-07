@@ -9,7 +9,7 @@
 </head>
 <body>
     <div>
-        <form action="#" method="post">
+        <form action="#" method="post" id='form'>
             <fieldset>
                 <legend align='center'>AFILIADO:</legend>
                 <label for='n° profesional'>N° del Profesional:</label>
