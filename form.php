@@ -65,7 +65,7 @@
                 <label for='grupo'>Grupo</label>
                 <input type='number' required>
             </fieldset><br>
-                <input type='submit' onclick='required()' id='enviar'>
+                <input type='submit' onclick='required2()' id='enviar'>
                 <input type='reset' id='reset'> <br><br>
         </form>
     </div>
