@@ -43,11 +43,11 @@
                 <label for='observacion'>Observacion:</label>
                 <input type='text'>
                 <label for='cuij' id='cuij' class='label2'>CUIJ</label>
-                <input type='text'><br>
+                <input type='text' name='cuij'><br>
                 <label for='nro. de auto' class='expte'>Nro. de auto:</label>
                 <input type='number' required>
                 <label for='expediente' id='expte' class='expte label2'>Expediente:</label>
-                <input type='text'>
+                <input type='text' name='expte'>
                 <label for='año expediente' class='expte label2'>Año expediente:</label>
                 <input type='date' value='<?php echo date("Y-m-d");?>' min='1948-01-01' max='<?php echo date("Y-m-d");?>' required><br>
                 <label for='circuscripcion' required>Circunscripcion:</label>
