@@ -7,6 +7,6 @@ $(document).ready(function() {
         };
         if (expte.length > 0 && cuij.length == 0) {
             $("input[name='cuij']").removeAttr("required");
-        }
-    })
-})
+        };
+    });
+});
